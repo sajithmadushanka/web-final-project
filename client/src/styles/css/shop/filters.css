@@ -1,0 +1,14 @@
+.filter{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+}
+.filter-butn{
+  font-size: 14px;
+  width: 100px;
+  height: 40px;
+  background-color: #B06EE6;
+  border-radius: 8px;
+  border: none;
+  margin: 5px;
+}

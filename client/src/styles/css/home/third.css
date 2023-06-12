@@ -1,0 +1,42 @@
+
+.thirdSection{
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.thirdSection .Category{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
+    grid-gap: 2px;
+}
+.gridItem {
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(41, 34, 34, 0.5);
+}
+
+.gridItem img{
+    width: 480px;
+    height: 300px;
+}
+.gridItem .itemText{
+    position:absolute;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.itemText a{
+    color: white;
+    text-decoration: none;
+}

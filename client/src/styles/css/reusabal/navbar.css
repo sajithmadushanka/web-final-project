@@ -1,0 +1,31 @@
+header {
+    margin-bottom: 60px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #f4b5f556;
+   
+}
+
+header .menulinks a {
+    margin: 0 20px;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+header .headerRight{
+    display: flex;
+    align-items: center;
+    padding-right: 0px;
+
+}
+header .headerRight a img{
+   margin-right: 100px;
+}
+header .login{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}

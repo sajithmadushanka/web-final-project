@@ -1,0 +1,30 @@
+.searchbar{
+    display: flex;
+    margin-left: 100px;
+   
+}
+.searchbar form{
+    display: flex;
+    position: relative;
+}
+
+.searchbar input{
+    width: 500px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    padding-left: 20px;
+    z-index: 1;
+}
+.searchbar button{
+    position: absolute;
+    width: 100px;
+    height: 48px;
+    border-radius: 50px;
+    background-color: #B06EE6;
+    right: 0;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
